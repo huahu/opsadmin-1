@@ -13,7 +13,7 @@ class UserForm(forms.Form):
     username=forms.CharField()
     password=forms.CharField()
 
-class IdcmanagerForm(forms.Form):
+class IdcmanagerForm(forms.Form):`
     hostname=forms.CharField()
     ip=forms.CharField()
     serialnumber=forms.CharField()
